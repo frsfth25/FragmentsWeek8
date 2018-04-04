@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FragmentsWeek8</string>
+    <string name="pikachu">It is a mouse</string>
+    <string name="squirtle">It is a turtoise</string>
+    <string name="balbazar">It is a balbazar</string>
+    <string name="charmender">It is a dinazor</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

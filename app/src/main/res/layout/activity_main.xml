@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.asus.gl.fragmentsweek8.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POKEDEX"
+        android:textSize="30dp"
+        android:gravity="center"
+        ></TextView>
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+    <TableRow android:layout_weight="1"
+        >
+    <ImageButton
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:onClick="pokedex"
+        android:tag="balbazar"
+        android:src="@drawable/balbazar"/>
+    <ImageButton
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:tag="pikachu"
+        android:onClick="pokedex"
+        android:src="@drawable/pikachu"/>
+    </TableRow>
+<TableRow android:layout_weight="1">
+    <ImageButton
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:onClick="pokedex"
+        android:tag="charmender"
+        android:src="@drawable/charmender"/>
+    <ImageButton
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:onClick="pokedex"
+        android:tag="squirtle"
+        android:src="@drawable/squirtle"/>
+</TableRow>
+</TableLayout>
+</LinearLayout>
